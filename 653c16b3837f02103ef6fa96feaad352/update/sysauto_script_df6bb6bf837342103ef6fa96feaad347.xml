@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Expired Applications</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-08-10 19:39:14</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[expiredApplications();
+
+function expiredApplications() {
+    var appGR = new GlideRecord('x_741738_applicati_applications');
+    appGR.addQuery('sys_updated_on', gs.daysAgo(90));
+    appGR.query();
+    while (appGR.next()) {
+        appGR.expired = false;
+        appGR.update();
+		var incGR = new GlideRecord('incident');
+		incGR.newRecord();
+		incGR.short_description = appGR.full_application_name + "is expired";
+		incGR.assignment_group = "e1ddfebf837342103ef6fa96feaad3d1";
+		incGR.insert();
+    }
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-10 19:46:58</sys_created_on>
+        <sys_id>df6bb6bf837342103ef6fa96feaad347</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Expired Applications</sys_name>
+        <sys_package display_value="Application Inv" source="x_741738_applicati">653c16b3837f02103ef6fa96feaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Inv">653c16b3837f02103ef6fa96feaad352</sys_scope>
+        <sys_update_name>sysauto_script_df6bb6bf837342103ef6fa96feaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-11 03:47:29</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

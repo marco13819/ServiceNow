@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="has_personal_data" label="Has Personal Data" language="en" table="x_741738_applicati_applications">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>has_personal_data</element>
+            <help/>
+            <hint/>
+            <label>Has Personal Data</label>
+            <language>en</language>
+            <name>x_741738_applicati_applications</name>
+            <plural>Has Personal Data</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-10 17:44:24</sys_created_on>
+            <sys_id>112162fb83ff02103ef6fa96feaad3c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Has Personal Data</sys_name>
+            <sys_package display_value="Application Inv" source="x_741738_applicati">653c16b3837f02103ef6fa96feaad352</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Inv">653c16b3837f02103ef6fa96feaad352</sys_scope>
+            <sys_update_name>sys_documentation_x_741738_applicati_applications_has_personal_data_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-10 17:44:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
