@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-10 17:44:22</sys_created_on>
-        <sys_id>02dd927383ff02103ef6fa96feaad34a</sys_id>
         <sys_name>Type of Application</sys_name>
         <sys_package display_value="Application Inv" source="x_741738_applicati">653c16b3837f02103ef6fa96feaad352</sys_package>
         <sys_policy/>

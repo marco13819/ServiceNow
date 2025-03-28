@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-08-10 19:25:16</sys_created_on>
-            <sys_id>4b387ef7837342103ef6fa96feaad339</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>mobile_application</sys_name>
             <sys_package display_value="Application Inv" source="x_741738_applicati">653c16b3837f02103ef6fa96feaad352</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2024-08-10 19:25:16</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>83387ef7837342103ef6fa96feaad339</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-10 19:25:16</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2024-08-10 19:25:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4f387ef7837342103ef6fa96feaad33a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-10 19:25:17</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2024-08-10 19:25:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cb387ef7837342103ef6fa96feaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-10 19:25:17</sys_updated_on>
